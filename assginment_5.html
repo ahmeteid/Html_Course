@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" /> <!-- This is for the Definition of languages -->
+    <title>Book Store</title>
+    <meta name="description" content="This is Our Book Store" />
+    <style></style>
+    <script></script>
+    <link rel="stylesheet" href="" />
+</head>
+
+<body>
+    <form action="" method="get">
+        <div>
+            <label for="user">User Name</label>
+            <input id="user" type="text" required placeholder="user name" autofocus minlength="5" maxlength="20"
+                name="user">
+        </div>
+        <br>
+        <div>
+            <label for="mail">Email</label>
+            <input id="mail" type="email" required placeholder="Enter a valid Email" name="mail" value="a@a.com"
+                disabled>
+        </div>
+        <br>
+        <div>
+            <label for="tok"></label>
+            <input id="tok" type="text" hidden value="b92f1fc2fce391ad7af633723afd3055" name="token">
+        </div>
+        <hr>
+        <!-- Skills -->
+        <div class="Skills">
+            <header>Skills</header>
+            <div>
+                <input id="prs" type="checkbox" name="Problem solve" value="Problem Solving" checked>
+                <label for="prs">Problem Solving</label>
+            </div>
+            <div>
+                <input id="lgt" type="checkbox" name="logic think" value="logic thinking">
+                <label for="lgt">Logic Thinking</label>
+            </div>
+            <div>
+                <input id="ads" type="checkbox" name="advanced Search" value="advanced Search">
+                <label for="ads">Advanced Search</label>
+            </div>
+            <div>
+                <input id="ana" type="checkbox" name="analysis" value="analysis">
+                <label for="ana">Analysis</label>
+            </div>
+            <div>
+                <input id="pla" type="checkbox" name="planning" value="planning">
+                <label for="pla">Planning</label>
+            </div>
+        </div>
+        <br>
+        <!-- Jobs -->
+        <div class="Job">
+            <header>Job</header>
+            <div>
+                <input id="front" type="checkbox" name="front_end" value="front_end" checked>
+                <label for="front">Front-End Developer</label>
+            </div>
+            <div>
+                <input id="back" type="checkbox" name="back_end" value="back_end">
+                <label for="back">Back-End Developer</label>
+            </div>
+            <div>
+                <input id="bana" type="checkbox" name="business_analysis" value="business_analysis">
+                <label for="bana">Business Analyst</label>
+            </div>
+            <div>
+                <input id="pmanag" type="checkbox" name="P_Manager" value="project_manager">
+                <label for="pmanag">Project Manager</label>
+            </div>
+            <div>
+                <input id="scurm" type="checkbox" name="scurm_master" value="scurm_master">
+                <label for="scurm">Scrum Master</label>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <label for="plnag">Chose Language</label>
+            <select name="languages" id="plnag">
+                <optgroup label="PHP">
+                    <option value="1">v5.0</option>
+                    <option value="2">v6.0</option>
+                    <option value="3">v7.0</option>
+                    <option value="4">v8.0</option>
+                    <option value="5">v9.0</option>
+                </optgroup>
+                <optgroup label="Python">
+                    <option value="6">v2.0</option>
+                    <option value="7">v3.0</option>
+                    <option value="8" selected>v4.0</option>
+                </optgroup>
+            </select>
+            <hr>
+            <textarea name="subject" id="" cols="30" rows="10"
+                placeholder="Write her what you want to learn Programming"></textarea>
+        </div>
+        <br>
+        <input type="reset" value="Empty">
+        <input type="submit" value="Save">
+    </form>
+</body>
+
+</html>
